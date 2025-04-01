@@ -7,25 +7,25 @@ This repository contains concise, easy-to-reference notes for discrete mathemati
 ## Quick Start 
 ### Downloading Just the Definitions PDF 
 If you only need the compiled quick-reference definitions, download directly: 
-``sh
+```sh
 wget https://github.com/Levitiku5/discrete-structures-cheat-sheet/blob/main/definitions.pdf
-`` 
+```
 ### Cloning the Entire Repository To download and modify the full set of LaTeX notes: 
-``sh 
+```sh 
 git clone https://github.com/Levitiku5/discrete-structures-cheat-sheet
-`` 
+```
 ### Compiling the LaTeX Source To compile the notes locally after making changes: 
-``sh 
+```sh 
 pdflatex definitions.tex 
-`` 
+``` 
 For full reference resolution (recommended): 
-``sh 
+```sh 
 pdflatex definitions.tex pdflatex definitions.tex 
-`` 
+``` 
 Alternatively, use `latexmk` for convenience: 
-``sh 
+```sh 
 latexmk -pdf definitions.tex 
-`` 
+``` 
 ## Modifying Notes 
 Feel free to edit `definitions.tex` to tailor the notes to your needs. I figured I'd upload to Github for easy modification of the source since there is quite a bit of content.
 ## Dependencies 
